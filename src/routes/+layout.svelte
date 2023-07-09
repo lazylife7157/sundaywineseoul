@@ -33,6 +33,9 @@
 
 	<main>
 		<slot />
+		<div class="order">
+			<a href="https://pf.kakao.com/_UCbHxj/chat" target="_blank">지금 문의하기</a>
+		</div>
 	</main>
 
 	<footer>
@@ -127,6 +130,24 @@
 	main {
 		flex-grow: 1;
 		padding: 1rem 8rem;
+	}
+
+	main > div.order {
+		width: 100%;
+		text-align: center;
+		padding: 4rem 0;
+	}
+	main > div.order > a {
+		font-family: 'Abel', sans-serif;
+		color: white;
+		text-decoration: none;
+		font-size: 2rem;
+		background-color: black;
+		border-radius: 1rem;
+		padding: 1rem 2rem;
+	}
+	main > div.order > a:hover {
+		color: pink;
 	}
 
 	footer {
