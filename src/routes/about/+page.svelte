@@ -1,4 +1,4 @@
-<h1>Home</h1>
+<h1>About</h1>
 
 <style>
 	@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
