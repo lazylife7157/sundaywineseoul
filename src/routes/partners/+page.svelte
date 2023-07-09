@@ -3,7 +3,7 @@
 <ul class="partners">
 	<li>
 		<a href="https://www.instagram.com/natasha.vineyard/" target="_blank">
-			<img src="/natashasvineyard.webp" alt="Natasha's Vineyard" />
+			<img src="/partners/natashasvineyard.webp" alt="Natasha's Vineyard" />
 		</a>
 	</li>
 	<li>

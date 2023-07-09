@@ -20,7 +20,8 @@
 					<div class="producers">
 						<a href="/producers/eccocivi">Eccocivi</a>
 						<a href="/producers/podere-sottoilnoce">Podere Sottoilnoce</a>
-						<a href="/producers/ket-diofas-pince">Ket Diofas Pince</a>
+						<a href="/producers/hegyi-kaló">Hegyi Kaló</a>
+						<a href="/producers/clos-thierrière">Clos Thierrière</a>
 					</div>
 				</li>
 				<li>
@@ -110,7 +111,7 @@
 	}
 
 	header > nav > ul > li:hover > div.producers {
-		height: 6.4rem;
+		height: 8rem;
 	}
 
 	header > nav > ul > li a {
