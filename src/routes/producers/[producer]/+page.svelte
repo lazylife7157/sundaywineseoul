@@ -7,15 +7,13 @@
 <p>{@html data.content}</p>
 
 <style>
-	@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+	h1 {
+		font-family: 'Abel', sans-serif;
+		text-align: center;
+	}
 
-    h1 {
-        font-family: 'Abel', sans-serif;
-        text-align: center;
-    }
-
-    p {
-        font-family: 'Abel', sans-serif;
-        font-size: 1.4rem;
-    }
+	p {
+		font-family: 'Abel', sans-serif;
+		font-size: 1.4rem;
+	}
 </style>

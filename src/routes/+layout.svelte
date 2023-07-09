@@ -1,5 +1,7 @@
 <header>
-	<h1 class="title">Sunday Wine Seoul</h1>
+	<a href="/">
+		<h1 class="title">Sunday Wine Seoul</h1>
+	</a>
 	<nav>
 		<ul>
 			<li>
@@ -27,17 +29,19 @@
 </main>
 
 <style>
-	@import url('https://fonts.googleapis.com/css2?family=Megrim&display=swap');
-	@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+    header > a {
+		color: black;
+		text-decoration: none;
+    }
 
-	header > h1.title {
+	header h1.title {
 		font-family: 'Megrim', cursive;
 		font-size: 6rem;
 		text-align: center;
 	}
 
 	header > nav {
-        font-family: 'Abel', sans-serif;
+		font-family: 'Abel', sans-serif;
 		font-size: 1.5rem;
 	}
 
@@ -53,7 +57,7 @@
 	}
 
 	header > nav > ul > li > span {
-        padding: 0 1rem;
+		padding: 0 1rem;
 	}
 
 	header > nav > ul > li > div.producers {
@@ -62,8 +66,8 @@
 		flex-direction: column;
 		justify-content: flex-end;
 		height: 0;
-        padding: 0 1rem;
-        padding-bottom: 0.5rem;
+		padding: 0 1rem;
+		padding-bottom: 0.5rem;
 		background-color: white;
 		overflow: hidden;
 		transition: height 0.5s;
@@ -74,13 +78,13 @@
 	}
 
 	header > nav > ul > li a {
-        color: black;
-        text-decoration: none;
+		color: black;
+		text-decoration: none;
 	}
 
 	header > nav > ul > li a:hover {
-        color: black;
-        text-decoration: underline;
+		color: black;
+		text-decoration: underline;
 	}
 
 	main {
