@@ -177,6 +177,9 @@
 		header > nav > ul > li > div.producers > a {
 			padding-left: 1rem;
 		}
+		header > nav > ul > li:hover > div.producers {
+			height: fit-content;
+		}
 
 		main {
 			padding: 1rem;
