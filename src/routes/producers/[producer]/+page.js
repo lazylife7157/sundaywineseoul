@@ -25,7 +25,7 @@ export function load({ params }) {
 					'약간의 침전물과, 클라우디한 느낌이 있으며 병마다 약간씩 다른 탄산감은 또다른 매력 포인트입니다. 보통 많이 보이는 화이트 스파클링 (탄산은 일반적인 스파클링보다 약한 강도의 프리잔떼 입니다.) 외에도, 색깔부터 매력적인 로제와, 흔히 보기 힘든 레드 스파클링까지 들여왔습니다.',
 					'매년 10월 4일, 성 프란치스코의 날에 60년 된 토착품종 올드바인에서 난 포도를 수확해 꼭 초승달 뜨는 밤에 바틀링하며, 연평균 단 6,000 바틀만 생산하는 Podere Sottoilnoce의 귀한 와인을 만나보세요.​'
 				],
-				images: ['/producers/podere_01.PNG', '/producers/podere_02.jpg']
+				images: ['/producers/podere_01.jpg', '/producers/podere_02.jpg']
 			};
 		case 'hegyi-kaló':
 			return {
