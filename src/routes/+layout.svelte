@@ -90,12 +90,9 @@
 	header > nav > ul {
 		display: flex;
 		justify-content: center;
+		gap: 4rem;
 		padding: 0;
 		list-style: none;
-	}
-
-	header > nav > ul > li {
-		margin-right: 4rem;
 	}
 
 	header > nav > ul > li > span {
@@ -161,5 +158,28 @@
 	}
 	footer a {
 		padding: 0.5rem;
+	}
+
+	@media (max-width: 1024px) {
+		header > nav > ul {
+			flex-direction: column;
+			gap: 0;
+			padding-left: 1rem;
+		}
+		header > nav > ul > li > span {
+			padding: 0;
+		}
+		header > nav > ul > li > div.producers {
+			position: relative;
+			padding: 0;
+			height: fit-content;
+		}
+		header > nav > ul > li > div.producers > a {
+			padding-left: 1rem;
+		}
+
+		main {
+			padding: 1rem;
+		}
 	}
 </style>
