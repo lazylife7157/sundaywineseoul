@@ -7,7 +7,7 @@
 		</a>
 	</li>
 	<li>
-		<h2>Coming Soon</h2>
+		<h2>coming soon</h2>
 	</li>
 </ul>
 
@@ -44,5 +44,11 @@
 		font-family: 'Megrim', cursive;
 		font-size: 4rem;
 		margin: 0;
+	}
+
+	@media (max-width: 1024px) {
+		ul.partners > li > h2 {
+			font-size: 2.4rem;
+		}
 	}
 </style>
