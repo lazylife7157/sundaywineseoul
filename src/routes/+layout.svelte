@@ -5,7 +5,7 @@
 <div class="container">
 	<header>
 		<a href="/">
-			<h1 class="title">Sunday Wine Seoul</h1>
+			<h1 class="title">sunday wine seoul</h1>
 		</a>
 		<nav>
 			<ul>
