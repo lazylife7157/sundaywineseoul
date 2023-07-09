@@ -164,7 +164,7 @@
 		header > nav > ul {
 			flex-direction: column;
 			gap: 0;
-			padding-left: 1rem;
+			padding-left: 2rem;
 		}
 		header > nav > ul > li > span {
 			padding: 0;
