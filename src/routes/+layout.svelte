@@ -27,6 +27,9 @@
 				<li>
 					<a href="/partners">Partners</a>
 				</li>
+				<li>
+					<a href="https://pf.kakao.com/_UCbHxj/chat" target="_blank">Contact</a>
+				</li>
 			</ul>
 		</nav>
 	</header>
