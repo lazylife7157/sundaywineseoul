@@ -7,9 +7,13 @@
 {#each data.contents as content}
 	<p>{content}</p>
 {/each}
-{#each data.images as image}
-	<img src={image} alt={image} />
-{/each}
+<ul class="images">
+	{#each data.images as image}
+		<li>
+			<img src={image} alt={image} />
+		</li>
+	{/each}
+</ul>
 
 <style>
 	h1 {
@@ -22,7 +26,22 @@
 		font-size: 1.4rem;
 	}
 
-	img {
+	ul.images {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 1rem;
+		list-style: none;
+		padding: 0;
+	}
+	ul.images > li {
+		flex-grow: 1;
+		height: 32rem;
+		position: relative;
+	}
+	ul.images > li > img {
+		object-fit: cover;
 		width: 100%;
+		height: 100%;
+		vertical-align: middle;
 	}
 </style>
