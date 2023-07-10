@@ -71,6 +71,10 @@
 		padding: 0;
 	}
 
+	header {
+		margin: 0 8rem;
+		border-bottom: 2px solid black;
+	}
 	header > a {
 		color: black;
 		text-decoration: none;
@@ -78,8 +82,9 @@
 
 	header h1.title {
 		font-family: 'Megrim', cursive;
-		font-size: 6rem;
+		font-size: 5.5rem;
 		text-align: center;
+		margin-top: 6rem;
 	}
 
 	header > nav {
@@ -111,10 +116,11 @@
 		background-color: white;
 		overflow: hidden;
 		transition: height 0.5s;
+		font-size: 0.8em;
 	}
 
 	header > nav > ul > li:hover > div.producers {
-		height: 8rem;
+		height: 6.4rem;
 	}
 
 	header > nav > ul > li a {
@@ -154,13 +160,18 @@
 		display: flex;
 		justify-content: space-between;
 		font-size: 1.2rem;
-		padding: 0.5rem 1rem;
+		margin: 0 8rem;
+		padding: 1rem 2rem;
+		border-top: 2px solid black;
 	}
 	footer a {
 		padding: 0.5rem;
 	}
 
 	@media (max-width: 1024px) {
+		header {
+			margin: 0 1rem;
+		}
 		header > nav > ul {
 			flex-direction: column;
 			gap: 0;
@@ -183,6 +194,10 @@
 
 		main {
 			padding: 1rem;
+		}
+
+		footer {
+			margin: 0 1rem;
 		}
 	}
 </style>
