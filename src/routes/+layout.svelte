@@ -72,7 +72,6 @@
 	}
 
 	header {
-		margin: 0 8rem;
 		border-bottom: 1px solid black;
 	}
 	header > a {
@@ -160,7 +159,6 @@
 		display: flex;
 		justify-content: space-between;
 		font-size: 1.2rem;
-		margin: 0 8rem;
 		padding: 1rem 2rem;
 		border-top: 1px solid black;
 	}
@@ -169,9 +167,6 @@
 	}
 
 	@media (max-width: 1024px) {
-		header {
-			margin: 0 1rem;
-		}
 		header > nav > ul {
 			flex-direction: column;
 			gap: 0;
@@ -194,10 +189,6 @@
 
 		main {
 			padding: 1rem 2rem;
-		}
-
-		footer {
-			margin: 0 1rem;
 		}
 	}
 </style>
