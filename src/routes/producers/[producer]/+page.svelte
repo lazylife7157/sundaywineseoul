@@ -5,7 +5,7 @@
 
 <h1>{data.title}</h1>
 {#each data.contents as content}
-	<p>{content}</p>
+	<p>&nbsp;&nbsp;&nbsp;&nbsp;{content}</p>
 {/each}
 <ul class="images">
 	{#each data.images as image}
@@ -24,6 +24,7 @@
 	p {
 		font-family: 'Abel', sans-serif;
 		font-size: 1.4rem;
+		line-height: 2rem;
 	}
 
 	ul.images {
