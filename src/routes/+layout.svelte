@@ -73,7 +73,7 @@
 
 	header {
 		margin: 0 8rem;
-		border-bottom: 2px solid black;
+		border-bottom: 1px solid black;
 	}
 	header > a {
 		color: black;
@@ -162,7 +162,7 @@
 		font-size: 1.2rem;
 		margin: 0 8rem;
 		padding: 1rem 2rem;
-		border-top: 2px solid black;
+		border-top: 1px solid black;
 	}
 	footer a {
 		padding: 0.5rem;
