@@ -150,6 +150,7 @@
 	main {
 		flex-grow: 1;
 		padding: 2rem 16rem;
+		background-color: #f8f9fa;
 	}
 
 	main > div.order {
