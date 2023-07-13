@@ -161,13 +161,13 @@
 	main > div.order > a {
 		font-family: 'Abel', sans-serif;
 		text-decoration: none;
-		font-size: 2rem;
-		color: white;
-		background-color: #212529;
+		font-size: 1.6rem;
+		border: 1px solid #212529;
 		padding: 1rem 2rem;
 	}
 	main > div.order > a:hover {
-		color: #dee2e6;
+		color: white;
+		background-color: #212529;
 	}
 
 	footer {
