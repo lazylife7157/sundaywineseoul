@@ -88,6 +88,7 @@
 	header > a.title > h1 {
 		font-family: 'Megrim', cursive;
 		font-size: 5.5rem;
+		text-align: center;
 		margin-top: 6rem;
 		margin-bottom: 0;
 	}
