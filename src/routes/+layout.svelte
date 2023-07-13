@@ -134,7 +134,7 @@
 
 	main {
 		flex-grow: 1;
-		padding: 2rem 8rem;
+		padding: 2rem 16rem;
 	}
 
 	main > div.order {
