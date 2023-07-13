@@ -4,8 +4,10 @@
 
 <div class="container">
 	<header>
-		<a href="/">
-			<h1 class="title">sunday wine seoul</h1>
+		<a class="title" href="/">
+			<h1>sunday wine seoul</h1>
+			<h2>Wine importer</h2>
+			<h2>Est. 2022</h2>
 		</a>
 		<nav>
 			<ul>
@@ -74,16 +76,25 @@
 	header {
 		border-bottom: 1px solid black;
 	}
-	header > a {
+
+	header > a.title {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
 		color: black;
 		text-decoration: none;
+		margin-bottom: 4rem;
 	}
-
-	header h1.title {
+	header > a.title > h1 {
 		font-family: 'Megrim', cursive;
 		font-size: 5.5rem;
-		text-align: center;
 		margin-top: 6rem;
+		margin-bottom: 0;
+	}
+	header > a.title > h2 {
+		margin: 0;
+		font-family: 'Abel', sans-serif;
+		font-size: 1.1rem;
 	}
 
 	header > nav {
