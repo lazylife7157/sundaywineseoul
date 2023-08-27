@@ -32,7 +32,8 @@
     padding: 0
 
   main
-    flex-grow: 1
+    flex: 1 1 auto
+    overflow: auto
     padding: 2rem 16rem
     background-color: #f8f9fa
     > div.order
