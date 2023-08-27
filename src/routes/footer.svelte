@@ -30,9 +30,13 @@
   @import 'open-color/open-color.scss'
 
   footer
+    position: fixed
+    bottom: 0
     display: flex
     justify-content: space-between
     align-items: center
+    box-sizing: border-box
+    width: 100vw
     padding: 1rem 2rem
     color: white
     background-color: #212529

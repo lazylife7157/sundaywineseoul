@@ -25,15 +25,10 @@
     color: inherit
 
   div.container
-    display: flex
-    flex-direction: column
-    height: 100vh
     margin: 0
     padding: 0
 
   main
-    flex: 1 1 auto
-    overflow: auto
     padding: 2rem 16rem
     background-color: #f8f9fa
     > div.order
