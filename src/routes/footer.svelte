@@ -56,4 +56,10 @@
         cursor: pointer
         font-size: 1rem
         line-height: 1rem
+
+  @media (max-width: 1024px)
+    footer
+      justify-content: flex-end
+      div.left
+        display: none
 </style>
