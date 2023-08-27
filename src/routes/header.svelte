@@ -37,20 +37,21 @@
   @import 'open-color/open-color.scss'
 
   header
+    background-color: $oc-gray-9
     color: $oc-gray-0
     > a.title
       display: flex
       flex-direction: column
       align-items: center
       text-decoration: none
-      margin-bottom: 4rem
+      padding-top: 6rem
+      padding-bottom: 4rem
       color: var(--color)
       > h1
+        margin: 0
         font-family: 'Megrim', cursive
         font-size: 5.5rem
         text-align: center
-        margin-top: 6rem
-        margin-bottom: 0
       > h2
         margin: 0
         font-family: 'Abel', sans-serif

@@ -9,17 +9,16 @@
 
   <main>
     <slot />
-    <div class="order">
-      <a href="https://pf.kakao.com/_UCbHxj/chat" target="_blank">지금 문의하기</a>
-    </div>
   </main>
 
   <Footer />
 </div>
 
 <style lang="sass">
+  @import 'open-color/open-color.scss'
+
   :global(body)
-    background-color: #212529
+    background-color: $oc-gray-0
 
   :global(a)
     color: inherit
@@ -29,21 +28,8 @@
     padding: 0
 
   main
+    margin-bottom: 4rem
     padding: 2rem 16rem
-    background-color: #f8f9fa
-    > div.order
-      width: 100%
-      text-align: center
-      padding: 4rem 0
-      > a
-        font-family: 'Abel', sans-serif
-        text-decoration: none
-        font-size: 1.6rem
-        border: 1px solid #212529
-        padding: 1rem 2rem
-      > a:hover
-        color: white
-        background-color: #212529
 
   @media (max-width: 1024px)
       main
