@@ -34,9 +34,10 @@
 </header>
 
 <style lang="sass">
+  @import 'open-color/open-color.scss'
+
   header
-    color: white
-    background-color: #212529
+    color: $oc-gray-0
     > a.title
       display: flex
       flex-direction: column
@@ -60,26 +61,31 @@
       > ul
         display: flex
         justify-content: center
-        gap: 4rem
         padding: 0
         list-style: none
         > li
+          display: flex
+          flex-direction: column
+          overflow: hidden
           > span
-            padding: 0 1rem
+            z-index: 1
+            padding: 0 4rem
+            background-color: $oc-gray-9
             cursor: default
           > div.producers
-            position: absolute
             display: flex
             flex-direction: column
             justify-content: flex-end
             height: 0
-            padding: 0 1rem
             padding-bottom: 0.5rem
-            background-color: #212529
-            overflow: hidden
+            overflow: visible
             transition: height 0.5s
             font-size: 0.8em
+            a
+              max-width: 1rem
+              white-space: nowrap
           a
+            padding: 0 4rem
             text-decoration: none
           a:hover
             text-decoration: underline
