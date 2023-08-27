@@ -101,11 +101,13 @@
         height: 6.4rem
 
   @media (max-width: 1024px)
-    header > nav > ul
+    nav > ul
       flex-direction: column
       gap: 0
       padding-left: 2rem
       > li
+        > a
+          padding: 0
         > span
           padding: 0
         > div.producers
