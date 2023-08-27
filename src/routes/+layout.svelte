@@ -65,6 +65,10 @@
 </div>
 
 <style>
+	:global(body) {
+		background-color: #212529;
+	}
+
 	a {
 		color: inherit;
 	}
