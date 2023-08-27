@@ -18,7 +18,7 @@
   @import 'open-color/open-color.scss'
 
   :global(body)
-    background-color: $oc-gray-0
+    background-color: $oc-gray-9
 
   :global(a)
     color: inherit
@@ -30,6 +30,8 @@
   main
     margin-bottom: 4rem
     padding: 2rem 16rem
+    min-height: 64vh
+    background-color: $oc-gray-0
 
   @media (max-width: 1024px)
       main
