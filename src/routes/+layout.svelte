@@ -7,9 +7,7 @@
 <div class="container">
   <Header />
 
-  <main>
-    <slot />
-  </main>
+  <slot />
 
   <Footer />
 </div>
@@ -26,12 +24,6 @@
   div.container
     margin: 0
     padding: 0
-
-  main
-    margin-bottom: 4rem
-    padding: 2rem 16rem
-    min-height: 64vh
-    background-color: $oc-gray-0
 
   @media (max-width: 1024px)
       main

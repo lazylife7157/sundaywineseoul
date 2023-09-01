@@ -1,4 +1,4 @@
-<div>
+<main>
   <div>
     <h1>특별한 매장에 어울리는 특별한 와인</h1>
 
@@ -43,23 +43,32 @@
   </div>
 
   <h2>업장을 한층 개성있고 돋보이게 해줄 와인들을 선데이와인서울에서 만나보세요.</h2>
-</div>
+</main>
 
 <style lang="sass">
+  @import 'open-color/open-color.scss'
 
   p
     margin: 1rem 0
     font-size: 1.4rem
     line-height: 2rem
 
-  div
+  main 
     font-family: 'Abel', sans-serif
     display: flex
     flex-direction: column
+    margin-bottom: 4rem
+    padding: 2rem 16rem
+    background: url('/1_2.jpeg')
+    background-size: cover
+    color: $oc-gray-0
     div
       width: 70%
       h1
+        text-shadow: $oc-gray-0 1px 0 16px
         margin-top: 4rem
+      p
+        text-shadow: $oc-gray-8 1px 0 4px
     div:nth-child(odd)
       align-self: start
       text-align: left
@@ -70,6 +79,7 @@
       margin-top: 4rem
       margin-bottom: 4rem
       text-align: center
+      text-shadow: $oc-gray-0 1px 0 8px
 
 
 

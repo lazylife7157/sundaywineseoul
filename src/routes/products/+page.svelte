@@ -32,7 +32,7 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.10.111/pdf.min.js"></script>
 </svelte:head>
 
-<div>
+<main>
   <ul>
     {#each { length: numPages } as _, i}
       {#if 2 <= i && i < numPages - 1}
@@ -42,26 +42,33 @@
       {/if}
     {/each}
   </ul>
-</div>
+</main>
 
 <style lang="sass">
-  ul
-    display: flex
-    justify-content: center
-    flex-wrap: wrap
-    gap: 1rem
-    margin: 0
-    padding: 0
-    list-style: none
-    li
+  @import 'open-color/open-color.scss'
+
+  main
+    margin-bottom: 4rem
+    padding: 2rem 8rem
+    background-color: $oc-gray-0
+    ul
+      display: flex
+      justify-content: center
+      flex-wrap: wrap
+      gap: 1rem
       margin: 0
       padding: 0
-      width: fit-content
-      canvas
-        width: 28rem
-  @media (max-width: 1024px)
-    ul
+      list-style: none
       li
+        margin: 0
+        padding: 0
+        width: fit-content
         canvas
-          width: 100%
+          width: 32rem
+  @media (max-width: 1024px)
+    main
+      ul
+        li
+          canvas
+            width: 100%
 </style>
