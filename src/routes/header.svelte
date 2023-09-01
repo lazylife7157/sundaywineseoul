@@ -10,12 +10,6 @@
 <nav>
   <ul>
     <li>
-      <a href="/">Home</a>
-    </li>
-    <li>
-      <a href="/about">About</a>
-    </li>
-    <li>
       <span>Producers</span>
       <div class="producers">
         <a href="/producers/eccocivi">Eccocivi</a>
@@ -24,9 +18,9 @@
         <a href="/producers/clos-thierrière">Clos Thierrière</a>
       </div>
     </li>
-    <li>
+    <!-- <li>
       <a href="/partners">Partners</a>
-    </li>
+    </li> -->
     <li>
       <a href="https://pf.kakao.com/_UCbHxj/chat" target="_blank">Contact</a>
     </li>
