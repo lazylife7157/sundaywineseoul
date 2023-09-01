@@ -1,9 +1,8 @@
 <script>
-  import { onMount } from 'svelte';
-
   let numPages = 0;
   const pages = [];
-  onMount(async () => {
+
+  async function drawPages() {
     pdfjsLib.getDocument('/products/products_20230713.pdf').promise.then(async (pdf) => {
       numPages = pdf.numPages;
       for (let i = 3; i < pdf.numPages; i++) {
@@ -25,11 +24,14 @@
         });
       }
     });
-  });
+  }
 </script>
 
 <svelte:head>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.10.111/pdf.min.js"></script>
+  <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.10.111/pdf.min.js"
+    on:load={drawPages}
+  ></script>
 </svelte:head>
 
 <main>
