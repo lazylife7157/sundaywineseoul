@@ -35,7 +35,7 @@
 <div>
   <ul>
     {#each { length: numPages } as _, i}
-      {#if 2 <= i && i <= numPages}
+      {#if 2 <= i && i < numPages - 1}
         <li>
           <canvas bind:this={pages[i]} />
         </li>
