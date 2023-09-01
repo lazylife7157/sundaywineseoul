@@ -18,6 +18,9 @@
         <a href="/producers/clos-thierrière">Clos Thierrière</a>
       </div>
     </li>
+    <li>
+      <a href="/products">Products</a>
+    </li>
     <!-- <li>
       <a href="/partners">Partners</a>
     </li> -->
