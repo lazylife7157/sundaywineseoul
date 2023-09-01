@@ -46,4 +46,8 @@
           width: 100%
           height: 100%
           vertical-align: middle
+
+  @media (max-width: 1024px)
+      main
+          padding: 1rem 2rem
 </style>

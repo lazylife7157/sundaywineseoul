@@ -60,6 +60,7 @@
     margin-bottom: 4rem
     padding: 2rem 16rem
     background: url('/1_2.jpeg')
+    background-position: center
     background-size: cover
     color: $oc-gray-0
     div
@@ -81,6 +82,7 @@
       text-align: center
       text-shadow: $oc-gray-0 1px 0 8px
 
-
-
+  @media (max-width: 1024px)
+      main
+          padding: 1rem 2rem
 </style>

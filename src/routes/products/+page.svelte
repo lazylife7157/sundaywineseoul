@@ -67,6 +67,7 @@
           width: 32rem
   @media (max-width: 1024px)
     main
+      padding: 1rem 2rem
       ul
         li
           canvas
