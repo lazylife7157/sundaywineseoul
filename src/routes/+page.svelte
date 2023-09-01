@@ -66,7 +66,7 @@
     div
       width: 70%
       h1
-        text-shadow: $oc-gray-0 1px 0 16px
+        text-shadow: $oc-gray-8 1px 0 16px
         margin-top: 4rem
       p
         text-shadow: $oc-gray-8 1px 0 4px
@@ -80,7 +80,7 @@
       margin-top: 4rem
       margin-bottom: 4rem
       text-align: center
-      text-shadow: $oc-gray-0 1px 0 8px
+      text-shadow: $oc-gray-8 1px 0 8px
 
   @media (max-width: 1024px)
       main
