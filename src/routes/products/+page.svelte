@@ -11,7 +11,7 @@
         const canvas = pages[i - 1];
         const context = canvas.getContext('2d');
         const outputScale = window.devicePixelRatio || 1;
-        const transform = null;
+        const transform = outputScale !== 1 ? [outputScale, 0, 0, outputScale, 0, 0] : null;
         const scale = 1;
         const viewport = page.getViewport({ scale });
 
