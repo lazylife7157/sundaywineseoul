@@ -16,7 +16,10 @@
     <h1>
       <a href="/">sunday wine seoul</a>
     </h1>
-    <button on:click={() => (isCollapsed = !isCollapsed)} on:touchend={() => (isCollapsed = !isCollapsed)}>
+    <button
+      on:mouseup={() => (isCollapsed = !isCollapsed)}
+      on:touchend={() => (isCollapsed = !isCollapsed)}
+    >
       <svg
         xmlns="http://www.w3.org/2000/svg"
         fill="none"
