@@ -18,7 +18,6 @@
     gap: 2rem
     align-items: center
     box-sizing: border-box
-    width: 100vw
     padding: 2rem
     color: white
     background-color: #212529
