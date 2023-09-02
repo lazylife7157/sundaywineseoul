@@ -47,7 +47,7 @@
         </li>
         <li>
           <h2>
-            <a href="/products">Products</a>
+            <a href="/wines">Wines</a>
           </h2>
         </li>
         <!-- <li>
