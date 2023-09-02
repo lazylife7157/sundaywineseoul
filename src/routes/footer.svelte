@@ -19,6 +19,10 @@
     </a>
   </div>
 </footer>
+<div class="contact">
+  <a href="https://pf.kakao.com/_UCbHxj/chat" target="_blank"> 카카오톡 문의 </a>
+  <a href="https://whattime.co.kr/sundaywineseoul" target="_blank"> 시음 신청 </a>
+</div>
 
 <style lang="sass">
   @import 'open-color/open-color.scss'
@@ -26,11 +30,12 @@
   footer
     bottom: 0
     display: flex
-    justify-content: space-between
+    justify-content: center
+    gap: 2rem
     align-items: center
     box-sizing: border-box
     width: 100vw
-    padding: 1rem 2rem
+    padding: 2rem
     color: white
     background-color: #212529
     .right
@@ -43,6 +48,22 @@
         svg
           fill: white
           height: 1.2rem
+  .contact
+    position: fixed
+    display: flex
+    gap: 1rem
+    bottom: 1rem
+    right: 1rem
+    a
+      font-family: 'Abel', sans-serif
+      text-decoration: none
+      padding: 0.75rem 1rem 
+      border: none
+      background-color: $oc-pink-7
+      color: $oc-gray-1
+      cursor: pointer
+      font-size: 1rem
+      line-height: 1rem
 
   @media (max-width: 1024px)
     footer

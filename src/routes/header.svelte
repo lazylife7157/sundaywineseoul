@@ -7,7 +7,7 @@
 
   onMount(() => {
     const mql = window.matchMedia('(max-width: 1280px)');
-    isMobile = mql.matches
+    isMobile = mql.matches;
     mql.addEventListener('change', (v) => (isMobile = v.matches));
   });
 </script>
@@ -17,9 +17,7 @@
     <h1>
       <a href="/">sunday wine seoul</a>
     </h1>
-    <button
-      on:click={() => (isCollapsed = !isCollapsed)}
-    >
+    <button on:click={() => (isCollapsed = !isCollapsed)}>
       <svg
         xmlns="http://www.w3.org/2000/svg"
         fill="none"
@@ -65,10 +63,6 @@
         </li>
       </ul>
     </nav>
-    <nav class="contact" transition:slide={{}}>
-      <a href="https://pf.kakao.com/_UCbHxj/chat" target="_blank"> 카카오톡 문의 </a>
-      <a href="https://whattime.co.kr/sundaywineseoul" target="_blank"> 시음 신청 </a>
-    </nav>
   {/if}
 </header>
 
@@ -78,8 +72,8 @@
   header
     z-index: 1
     display: flex
-    justify-content: space-between
     align-items: start
+    gap: 4rem
     position: sticky
     top: 0px
     padding: 0 4rem
@@ -145,25 +139,12 @@
         li.producers:hover
           div
             height: 6.4rem
-    nav.contact
-      display: flex
-      gap: 1rem
-      align-self: center
-      a
-        font-family: 'Abel', sans-serif
-        text-decoration: none
-        padding: 0.75rem 1rem 
-        border: none
-        background-color: $oc-pink-7
-        color: $oc-gray-1
-        cursor: pointer
-        font-size: 1rem
-        line-height: 1rem
 
   @media (max-width: 1280px)
     header
       flex-direction: column
       align-items: stretch
+      gap: 0
       padding: 1rem
       nav.logo
         justify-content: space-between
@@ -201,6 +182,4 @@
           li.producers:hover
             div
               height: fit-content
-      nav.contact
-        align-self: end
 </style>
