@@ -29,7 +29,7 @@
       text-align: center
     p
       font-family: 'Abel', sans-serif
-      font-size: 1.4rem
+      font-size: 1.2rem
       line-height: 2rem
     ul.images
       display: flex
