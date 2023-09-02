@@ -18,6 +18,7 @@
   :global(body)
     background-color: $oc-gray-9
     color: $oc-gray-0
+    font-family: 'Abel', sans-serif
 
   :global(a)
     color: inherit

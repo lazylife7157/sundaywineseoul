@@ -58,7 +58,7 @@
         </li> -->
         <li>
           <h2>
-            <a href="https://pf.kakao.com/_UCbHxj/chat" target="_blank">Contact</a>
+            <a href="/contact">Contact</a>
           </h2>
         </li>
       </ul>
