@@ -7,6 +7,7 @@
 
   onMount(() => {
     const mql = window.matchMedia('(max-width: 1280px)');
+    isMobile = mql.matches
     mql.addEventListener('change', (v) => (isMobile = v.matches));
   });
 </script>
@@ -17,8 +18,7 @@
       <a href="/">sunday wine seoul</a>
     </h1>
     <button
-      on:mouseup={() => (isCollapsed = !isCollapsed)}
-      on:touchend={() => (isCollapsed = !isCollapsed)}
+      on:click={() => (isCollapsed = !isCollapsed)}
     >
       <svg
         xmlns="http://www.w3.org/2000/svg"
