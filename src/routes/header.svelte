@@ -2,7 +2,7 @@
   import { onMount } from 'svelte';
   import { slide } from 'svelte/transition';
 
-  let isCollapsed = false;
+  let isCollapsed = true;
   let isMobile = false;
 
   onMount(() => {
