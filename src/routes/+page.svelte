@@ -86,7 +86,6 @@
     font-family: 'Abel', sans-serif
     display: flex
     flex-direction: column
-    color: $oc-gray-0
     > div
       height: 100vh
     > div.logo:nth-child(1)
@@ -118,6 +117,8 @@
         height: fit-content
         h1
           padding: 1rem 0
+        p
+          text-wrap: balance
       div.image
         width: 40%
         height: 100%
@@ -158,15 +159,25 @@
       background: $oc-gray-0
       color: $oc-gray-9
       text-align: center
+      text-wrap: balance
 
   @media (max-width: 1024px)
     main
       > div
         flex-direction: column
         justify-content: center
+      > div.logo:nth-child(1)
+        h1
+          font-size: 6rem
+      > div.info
+        div
+          padding: 1rem
+          width: 100%
+        div.image
+          width: 100%
       > div:nth-child(3)
         div
           order: 1
-        img
+        div.image
           order: 2
 </style>
