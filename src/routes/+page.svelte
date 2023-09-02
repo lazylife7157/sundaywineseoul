@@ -20,7 +20,7 @@
     <h2>Est. 2022</h2>
   </div>
 
-  <div>
+  <div class="info">
     <div>
       <h1>특별한 매장에 어울리는 특별한 와인</h1>
       <p>
@@ -32,11 +32,11 @@
         극대화됩니다. 와인을 그 자리에서 즐길 수 있는 요식업장에만 납품합니다.
       </p>
     </div>
-    <img src="/1_1.jpeg" alt="" />
+    <div class="image" />
   </div>
 
-  <div>
-    <img src="/2_1.jpeg" alt="" />
+  <div class="info">
+    <div class="image" />
     <div>
       <h1>직접 드셔보시고 판매하세요</h1>
 
@@ -54,7 +54,7 @@
     </div>
   </div>
 
-  <div>
+  <div class="info">
     <div>
       <h1>와인 관련해서는 전부 맡겨주세요</h1>
 
@@ -68,7 +68,7 @@
         구비하시면 좋은지, 어떤 요소가 고객님들께 반응이 좋은지 등 성심성의껏 컨설팅해 드립니다.
       </p>
     </div>
-    <img src="/3_1.jpeg" alt="" />
+    <div class="image" />
   </div>
 
   <h2>업장을 한층 개성있고 돋보이게 해줄 와인들을 선데이와인서울에서 만나보세요.</h2>
@@ -96,10 +96,10 @@
       align-self: center
       text-align: center
       width: 100%
-
       background: url('/1_2.jpeg')
       background-position: center
       background-size: cover
+      color: $oc-gray-0
       h1
         margin: 0 0 2rem 0
         font-family: 'Megrim', cursive
@@ -107,52 +107,51 @@
         text-shadow: $oc-gray-8 1px 0 8px
       h2
         margin: 0 0 1rem 0
-    > div:nth-child(2)
+    > div.info
       display: flex
+      justify-content: space-between
       align-items: center
-      gap: 4rem
-      text-align: left
-      padding: 4rem
-      background: $oc-gray-0
-      color: $oc-gray-9
       div
+        box-sizing: border-box
+        padding: 4rem
+        width: 60%
         height: fit-content
         h1
           padding: 1rem 0
-          border-bottom: 2px solid $oc-gray-9
+      div.image
+        width: 40%
+        height: 100%
       img
-        height: 20rem
+        height: 32%
         border-radius: 2rem
-    > div:nth-child(3)
-      display: flex
-      align-items: center
-      gap: 4rem
-      padding: 4rem
+    > div:nth-child(even)
+      text-align: left
+      div
+        h1
+          border-bottom: 2px solid $oc-gray-9
+    > div:nth-child(odd)
       text-align: right
-      div
-        height: fit-content
-        h1
-          padding: 1rem 0
-          border-bottom: 2px solid $oc-gray-0
-      img
-        height: 20rem
-        border-radius: 2rem
-    > div:nth-child(4)
-      display: flex
-      align-items: center
-      gap: 4rem
-      padding: 4rem
-      text-align: left
-      background: $oc-gray-0
       color: $oc-gray-9
+      background-color: $oc-gray-0
       div
-        height: fit-content
         h1
-          padding: 1rem 0
+          border-bottom: 2px solid $oc-gray-0
+      div
+        h1
           border-bottom: 2px solid $oc-gray-9
-      img
-        height: 20rem
-        border-radius: 2rem
+    > div:nth-child(2)
+      div.image
+        background-image: url('/1_1.jpeg')
+        background-size: cover
+    > div:nth-child(3)
+      div.image
+        background-image: url('/2_1.jpeg')
+        background-size: cover
+        background-position: center
+    > div:nth-child(4)
+      div.image
+        background-image: url('/3_1.jpeg')
+        background-size: cover
     > h2
       margin: 0
       padding: 2rem 4rem
