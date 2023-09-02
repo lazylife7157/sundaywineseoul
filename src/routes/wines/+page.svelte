@@ -50,7 +50,6 @@
   @import 'open-color/open-color.scss'
 
   main
-    margin-bottom: 4rem
     padding: 2rem 8rem
     background-color: $oc-gray-0
     ul
