@@ -24,6 +24,7 @@
     margin-bottom: 4rem
     padding: 2rem 16rem
     background-color: $oc-gray-0
+    color: $oc-gray-9
     h1
       font-family: 'Abel', sans-serif
       text-align: center

@@ -17,6 +17,7 @@
 
   :global(body)
     background-color: $oc-gray-9
+    color: $oc-gray-0
 
   :global(a)
     color: inherit

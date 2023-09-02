@@ -66,7 +66,7 @@
         padding: 0
         width: fit-content
         canvas
-          width: 32rem
+          width: 36rem
   @media (max-width: 1024px)
     main
       padding: 1rem 2rem
