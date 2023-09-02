@@ -129,14 +129,11 @@
       text-align: left
       div
         h1
-          border-bottom: 2px solid $oc-gray-9
+          border-bottom: 2px solid $oc-gray-0
     > div:nth-child(odd)
       text-align: right
       color: $oc-gray-9
       background-color: $oc-gray-0
-      div
-        h1
-          border-bottom: 2px solid $oc-gray-0
       div
         h1
           border-bottom: 2px solid $oc-gray-9
