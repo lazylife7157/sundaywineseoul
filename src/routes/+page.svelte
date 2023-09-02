@@ -86,7 +86,6 @@
     font-family: 'Abel', sans-serif
     display: flex
     flex-direction: column
-    margin-bottom: 4rem
     color: $oc-gray-0
     > div
       height: 100vh

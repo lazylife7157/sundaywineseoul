@@ -17,12 +17,6 @@
         /></svg
       >
     </a>
-    <a href="https://pf.kakao.com/_UCbHxj/chat" target="_blank">
-      <button>카카오톡 문의</button>
-    </a>
-    <a href="https://whattime.co.kr/sundaywineseoul" target="_blank">
-      <button>시음 신청</button>
-    </a>
   </div>
 </footer>
 
@@ -49,16 +43,6 @@
         svg
           fill: white
           height: 1.2rem
-      button
-        font-family: 'Abel', sans-serif
-        text-decoration: none
-        padding: 0.75rem 1rem 
-        border: none
-        background-color: $oc-pink-7
-        color: $oc-gray-1
-        cursor: pointer
-        font-size: 1rem
-        line-height: 1rem
 
   @media (max-width: 1024px)
     footer
