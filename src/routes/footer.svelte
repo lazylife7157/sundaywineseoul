@@ -4,7 +4,7 @@
   <div>Sunday Wine Seoul © 2023 - All Rights Reserved</div>
 </footer>
 <div class="contact">
-  <a href="https://pf.kakao.com/_UCbHxj/chat" target="_blank"> 카카오톡 문의 </a>
+  <a href="tel:070-4519-5310" target="_blank"> 070-4519-5310 </a>
   <a href="https://whattime.co.kr/sundaywineseoul" target="_blank"> 시음 신청 </a>
 </div>
 
