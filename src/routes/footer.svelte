@@ -5,7 +5,7 @@
 </footer>
 <div class="contact">
   <a href="tel:070-4519-5310" target="_blank"> 070-4519-5310 </a>
-  <a href="https://whattime.co.kr/sundaywineseoul" target="_blank"> 시음 신청 </a>
+  <a href="https://forms.gle/72MzCnRAVrKzQgHv9" target="_blank"> 주문하기 </a>
 </div>
 
 <style lang="sass">
